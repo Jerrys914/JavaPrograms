@@ -12,7 +12,7 @@ public class Main {
 		healthyBurger.add1ExtraHealthy("Avacado", 3.26);
 		System.out.println("Healthy burger is $" + healthyBurger.totalPrice());
 
-		DeluxeBurger deluxeBurger = new DeluxeBurger("Steak", 8.37, "Triple Bun");
+		DeluxeBurger deluxeBurger = new DeluxeBurger();
 		System.out.println("Deluxe burger is $" + deluxeBurger.totalPrice());
 	}
 }
